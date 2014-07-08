@@ -54,7 +54,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH=$PATH:$HOME/bin:/usr/local/bin:"/Applications/Android Studio.app/sdk/platform-tools":$HOME/.plenv/bin:
+export PATH=$PATH:$HOME/bin:/usr/local/bin:"/Applications/Android Studio.app/sdk/platform-tools"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -137,9 +137,15 @@ alias -g S="| sed"
 alias -g OS="| xargs subl"
 alias -g OV="| xargs vim"
 
-eval "$(plenv init -)"
-
 #COMMENT_OUT
+
+#**env系の設定
+export PATH="$HOME/.anyenv/bin:$HOME/.plenv/bin:$HOME/.rbenv/bin:$HOME/.pyenv/bin:$HOME/.phpenv/bin:$HOME/.goenv/bin:$PATH"
+eval "$(anyenv init -)"
+eval "$(plenv init -)"
+eval "$(rbenv init -)"
+eval "$(pyenv init -)"
+eval "$(goenv init -)"
 
 #cdr
 autoload -Uz chpwd_recent_dirs cdr add-zsh-hook
