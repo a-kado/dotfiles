@@ -54,7 +54,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH=$PATH:$HOME/bin:/usr/local/bin:"/Applications/Android Studio.app/sdk/platform-tools"
+export PATH=$PATH:$HOME/bin:/usr/local/bin:"/usr/local/Cellar/android-sdk"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
