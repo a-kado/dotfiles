@@ -215,11 +215,13 @@ if exists peco; then
             echo $SELECTED_FILE | sed 's/ /\\ /g'
         fi
     }
-    alias ps='search-document-by-peco'
+    alias pecos='search-document-by-peco'
     alias -g OS="| xargs subl"
     alias -g OV="| xargs vim"
 
 fi
 
+export JAVA_HOME='/Library/Java/Home'
+export CATALINA_HOME='/usr/local/Cellar/tomcat6/6.0.41/libexec'
 
 

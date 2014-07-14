@@ -20,6 +20,10 @@ install android-sdk
 install android-ndk
 install peco
 install ag
+install libpng --universal
+install libjpeg --universal
+install memcached
+install tree
 
 # Packages for brew-cask
 install brew-cask
@@ -37,6 +41,7 @@ cask install android-studio
 cask install genymotion
 cask install virtualbox
 cask install iterm2
+cask install flash-player
 
 # Remove outdated versions
 cleanup
