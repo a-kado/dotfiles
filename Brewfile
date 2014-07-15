@@ -42,6 +42,7 @@ cask install genymotion
 cask install virtualbox
 cask install iterm2
 cask install flash-player
+cask install sourcetree
 
 # Remove outdated versions
 cleanup
