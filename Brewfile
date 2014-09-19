@@ -24,6 +24,9 @@ install libpng --universal
 install libjpeg --universal
 install memcached
 install tree
+install ctags
+install maven
+install npm
 
 # Packages for brew-cask
 install brew-cask
@@ -43,6 +46,8 @@ cask install virtualbox
 cask install iterm2
 cask install flash-player
 cask install sourcetree
+cask install evernote 
+cask install dropbox
 
 # Remove outdated versions
 cleanup

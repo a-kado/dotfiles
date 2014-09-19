@@ -54,7 +54,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH=$PATH:$HOME/bin:/usr/local/bin:"/usr/local/Cellar/android-sdk"
+export PATH=/usr/local/bin:/usr/local/sbin:$HOME/bin/:"/usr/local/Cellar/android-sdk":$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -209,7 +209,7 @@ if exists peco; then
             fi
         fi 
         SELECTED_FILE=$(echo $DOCUMENT_DIR | xargs find | \
-            ag -w "\.(txt|md|pdf|java|h|m|mm|c|cs|cpp|html|vb|xml|log|plist|swift|rb|pm|css|pl|tt|js|coffee)$" | peco)
+            ag -w "\.(txt|md|pdf|java|h|m|mm|c|cs|cpp|html|vb|xml|log|plist|swift|rb|pm|css|pl|tt|js|coffee|vm)$" | peco)
         if [ $? -eq 0 ]; then
 #            vi $SELECTED_FILE
             echo $SELECTED_FILE | sed 's/ /\\ /g'
@@ -221,7 +221,12 @@ if exists peco; then
 
 fi
 
-export JAVA_HOME='/Library/Java/Home'
+export JAVA_HOME='/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home'
+#export JAVA_HOME='/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home'
+export PATH=$JAVA_HOME/bin:$PATH
 export CATALINA_HOME='/usr/local/Cellar/tomcat6/6.0.41/libexec'
 
+export ROO_HOME='/usr/local/Cellar/spring-roo/1.2.5'
+export PATH=$ROO_HOME/bin:$PATH
+export JETTY_HOME=/usr/local/Cellar/jetty/9.2.2/libexec
 
