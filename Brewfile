@@ -48,6 +48,7 @@ cask install flash-player
 cask install sourcetree
 cask install evernote 
 cask install dropbox
+cask install karabiner
 
 # Remove outdated versions
 cleanup

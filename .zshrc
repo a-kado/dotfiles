@@ -230,3 +230,8 @@ export ROO_HOME='/usr/local/Cellar/spring-roo/1.2.5'
 export PATH=$ROO_HOME/bin:$PATH
 export JETTY_HOME=/usr/local/Cellar/jetty/9.2.2/libexec
 
+#export CHROME_BIN='/opt/homebrew-cask/Caskroom/google-chrome/latest/Google Chrome.app'
+
+#export CHROME_BIN='/Users/FKST14574/Applications/Google Chrome.app'
+#export CHROME_CANARY_BIN='/opt/homebrew-cask/Caskroom/google-chrome/latest/Google Chrome.app/Contents/MacOS/Google Chrome'
+
