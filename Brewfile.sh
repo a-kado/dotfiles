@@ -5,9 +5,7 @@ brew update
 brew upgrade
 
 # Add Repository
-brew tap caskroom/cask/brew-cask || true
 brew tap homebrew/binary || true
-brew tap peco/peco || true
 
 # Packages for development
 brew install zsh
@@ -25,7 +23,7 @@ brew install ctags
 brew install maven
 brew install node
 brew install npm
-
+brew install homebrew/versions/tomcat6
 
 # Packages for brew-cask
 brew install brew-cask
@@ -35,15 +33,13 @@ brew cask install atom
 brew cask install firefox
 brew cask install vagrant
 brew cask install alfred
-brew cask alfred
-brew cask alfred link
-brew cask install sublime-text
 brew cask install iterm2
 brew cask install flash-player
 brew cask install sourcetree
 brew cask install evernote
 brew cask install dropbox
 brew cask install karabiner
+brew cask install bee
 
 # Remove outdated versions
 brew cleanup
