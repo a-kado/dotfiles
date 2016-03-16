@@ -24,6 +24,7 @@ brew install maven
 brew install node
 brew install npm
 brew install homebrew/versions/tomcat6
+brew install jetty
 
 # Packages for brew-cask
 brew install brew-cask
@@ -40,6 +41,9 @@ brew cask install evernote
 brew cask install dropbox
 brew cask install karabiner
 brew cask install bee
+brew cask install skype
+brew cask install kindle
+brew cask install amazon-cloud-drive
 
 # Remove outdated versions
 brew cleanup
