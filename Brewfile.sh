@@ -13,7 +13,6 @@ brew install git
 brew install vim
 brew install gcc
 brew install mysql
-brew install peco
 brew install ag
 brew install libpng --universal
 brew install libjpeg --universal
@@ -47,3 +46,8 @@ brew cask install amazon-cloud-drive
 
 # Remove outdated versions
 brew cleanup
+
+#prezto
+zsh
+git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+
