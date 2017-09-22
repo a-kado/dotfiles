@@ -24,6 +24,7 @@ brew install node
 brew install npm
 brew install homebrew/versions/tomcat6
 brew install jetty
+brew install redis
 
 # Packages for brew-cask
 brew install brew-cask
