@@ -47,7 +47,3 @@ brew cask install java8
 # Remove outdated versions
 brew cleanup
 
-#prezto
-zsh
-git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
-
