@@ -43,6 +43,7 @@ brew cask install skype
 brew cask install kindle
 brew cask install amazon-cloud-drive
 brew cask install java8
+brew cask install visual-studio-code
 
 # Remove outdated versions
 brew cleanup
