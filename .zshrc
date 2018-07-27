@@ -92,20 +92,12 @@ zstyle ':chpwd:*' recent-dirs-default yes
 zstyle ':completion:*' recent-dirs-insert both
 
 
-export JAVA_HOME='/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home'
-export PATH=$JAVA_HOME/bin:$PATH
-export CATALINA_HOME='/usr/local/Cellar/tomcat6/6.0.45/libexec'
+# export JAVA_HOME='/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home'
+# export PATH=$JAVA_HOME/bin:$PATH
+# export CATALINA_HOME='/usr/local/Cellar/tomcat6/6.0.45/libexec'
 
-export ROO_HOME='/usr/local/Cellar/spring-roo/1.2.5'
 export PATH=$ROO_HOME/bin:$PATH
-export JETTY_HOME=/usr/local/Cellar/jetty/9.2.2/libexec
-
-export PATH=$HOME/.exenv/bin:$PATH
-
-#export CHROME_BIN='/opt/homebrew-cask/Caskroom/google-chrome/latest/Google Chrome.app'
-
-#export CHROME_BIN='/Users/FKST14574/Applications/Google Chrome.app'
-#export CHROME_CANARY_BIN='/opt/homebrew-cask/Caskroom/google-chrome/latest/Google Chrome.app/Contents/MacOS/Google Chrome'
+# export JETTY_HOME=/usr/local/Cellar/jetty/9.2.2/libexec
 
 export PATH=$HOME/.exenv/bin:$PATH
 
