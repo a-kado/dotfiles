@@ -45,6 +45,7 @@ brew cask install amazon-cloud-drive
 brew cask install java8
 brew cask install visual-studio-code
 brew cask install skitch
+brew cask install postman
 
 # Remove outdated versions
 brew cleanup
