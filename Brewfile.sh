@@ -36,25 +36,25 @@ brew install docker
 brew install brew-cask
 
 # .dmg from brew-cask
-brew cask install atom
-brew cask install firefox
-brew cask install vagrant
-brew cask install alfred
-brew cask install iterm2
-brew cask install evernote
-brew cask install dropbox
-brew cask install skype
-brew cask install kindle
-brew cask install amazon-cloud-drive
-brew cask install java8
-brew cask install java11
-brew cask install visual-studio-code
-brew cask install skitch
-brew cask install postman
-brew cask install krisp
-brew cask install google-backup-and-sync
-brew cask install google-japanese-ime
-brew cask install deepl
+brew install --cask atom
+brew install --cask firefox
+brew install --cask vagrant
+brew install --cask alfred
+brew install --cask iterm2
+brew install --cask evernote
+brew install --cask dropbox
+brew install --cask skype
+brew install --cask kindle
+brew install --cask amazon-cloud-drive
+brew install --cask java8
+brew install --cask java11
+brew install --cask visual-studio-code
+brew install --cask skitch
+brew install --cask postman
+brew install --cask krisp
+brew install --cask google-backup-and-sync
+brew install --cask google-japanese-ime
+brew install --cask deepl
 
 # Remove outdated versions
 brew cleanup
