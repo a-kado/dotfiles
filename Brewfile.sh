@@ -6,6 +6,7 @@ brew upgrade
 
 # Add Repository
 brew tap homebrew/binary || true
+brew tap homebrew/cask-versions
 
 # Packages for development
 brew install zsh
@@ -32,9 +33,6 @@ brew install nginx
 brew install openssl
 brew install docker
 
-# Packages for brew-cask
-brew install brew-cask
-
 # .dmg from brew-cask
 brew install --cask atom
 brew install --cask firefox
@@ -46,7 +44,7 @@ brew install --cask dropbox
 brew install --cask skype
 brew install --cask kindle
 brew install --cask amazon-cloud-drive
-brew install --cask java8
+brew install --cask adoptopenjdk8
 brew install --cask java11
 brew install --cask visual-studio-code
 brew install --cask skitch
