@@ -55,6 +55,8 @@ brew install --cask google-japanese-ime
 brew install --cask deepl
 brew install --cask miro
 brew install --cask meetingbar
+brew install --cask visualvm
+brew install --cask intellij-idea
 
 # Remove outdated versions
 brew cleanup
